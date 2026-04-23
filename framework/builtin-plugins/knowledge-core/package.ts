@@ -5,6 +5,12 @@ export default definePackage({
   kind: "app",
   version: "0.1.0",
   displayName: "Knowledge Core",
+  defaultCategory: {
+    id: "content_experience",
+    label: "Content & Experience",
+    subcategoryId: "knowledge_base",
+    subcategoryLabel: "Knowledge Base"
+  },
   description: "Knowledge base, docs, and article tree backbone.",
   extends: [],
   dependsOn: ["auth-core","org-tenant-core","role-policy-core","audit-core"],
