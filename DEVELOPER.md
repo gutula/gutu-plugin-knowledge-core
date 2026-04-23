@@ -54,6 +54,11 @@ Owns the knowledge base and article tree domain that can feed retrieval, documen
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core`, `role-policy-core`, `audit-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.knowledge` |
 | Provides Capabilities | `knowledge.articles` |
 | Owns Data | `knowledge.articles` |
